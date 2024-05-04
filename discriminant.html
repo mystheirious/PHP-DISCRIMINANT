@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Discriminant</title>
+	<style>
+		body {
+			background-color: #ffd5e8;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+		form {
+			width: 550px;
+			padding: 20px;
+			border: 2px solid black;
+			border-radius: 10px;
+			background-color: #fbeee6;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<form action="getDiscriminant.php" method="GET">
+
+		<!-- Input fields for the values -->
+		<h1>Discriminant of a quadratic equation</h1>
+		<p><label for="a">A: </label><input type="text" placeholder="Value of A here" name="a"></p>
+		<p><label for="b">B: </label><input type="text" placeholder="Value of B here" name="b"></p>
+		<p><label for="c">C: </label><input type="text" placeholder="Value of C here" name="c"></p>
+		
+		<!-- Submit button -->
+		<p><input type="submit" value="Submit" name="getTotal"></p>
+	</form>
+</body>
+</html>
